@@ -1,0 +1,73 @@
+* {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  /*  border: .2rem solid rgb(108, 108, 192); */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    /* border: 0.2rem solid red; */
+    height: 4rem;
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+    color: #eee;
+}
+
+.logo {
+    border: .2rem solid blue;
+    background-color: blue;
+    font-weight: bold;
+    width: 1rem;
+    height: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 100%;
+    margin-right: .7rem;
+}
+
+.titulo {
+    /* border: .2rem solid yellow;  */
+    width: 100%;
+    
+}
+
+section {
+    /* border: .2rem solid blue; */
+    display: flex;
+    flex: 1;
+}
+
+nav {
+    /* border: .2rem solid yellow; */
+    width: 10rem; 
+    background-color: #eee;
+    padding: 0.5rem;
+}
+
+main {
+    /* border: .2rem solid purple; */
+    display: flex;
+    flex: 1;
+    padding: 0.5rem;
+}
+
+footer {
+    /* border: .2rem solid green; */
+    height: 4rem;
+    padding: 0.5rem;
+    background-color: #252323;
+    color: #eee;
+}
