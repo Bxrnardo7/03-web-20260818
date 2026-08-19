@@ -6,7 +6,7 @@
 }
 
 body {
-  /*  border: .2rem solid rgb(108, 108, 192); */
+    /*  border: .2rem solid rgb(108, 108, 192); */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -41,7 +41,7 @@ header {
 .titulo {
     /* border: .2rem solid yellow;  */
     width: 100%;
-    
+
 }
 
 section {
@@ -52,7 +52,7 @@ section {
 
 nav {
     /* border: .2rem solid yellow; */
-    width: 10rem; 
+    width: 10rem;
     background-color: #eee;
     padding: 0.5rem;
 }
@@ -70,4 +70,20 @@ footer {
     padding: 0.5rem;
     background-color: #252323;
     color: #eee;
+}
+
+button{
+    
+}
+
+.Card {
+    display: grid;
+ border: 0.5rem solid blue;
+ border-radius: 100px;
+    
+}
+
+.imgcru {
+    width: 500px;
+    height: 500px;
 }
